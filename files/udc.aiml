@@ -4,7 +4,6 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
-
 <category>
     <pattern>Hello *</pattern>
     <template>Hello world</template>
@@ -19,6 +18,26 @@
             <li>4</li>
             <li>5</li>
             <li>6</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>Game of personality</pattern>
+    <template>
+        <random>
+            <li>Salith</li>
+            <li>Naved</li>
+            <li>Zayaan</li>
+            <li>Tahsin</li>
+            <li>Ratul</li>
+            <li>Affan</li>
+        </random> is <random>
+            <li>Stupid</li>
+            <li>Intelligent</li>
+            <li>Rubbish</li>
+            <li>Good looking</li>
+            <li>Kind hearted</li>
+            <li>Foolish</li>
         </random>
     </template>
 </category>
