@@ -17,6 +17,26 @@
     </template>
 </category>
 <category>
+    <pattern>Hi</pattern>
+    <template><srai>Hello</srai></template>
+</category>
+<category>
+    <pattern>What is your name</pattern>
+    <template>My name is Mima</template>
+</category>
+<category>
+    <pattern>What is your age</pattern>
+    <template>I am 2 years old</template>
+</category>
+<category>
+    <pattern>Can you tell me *</pattern>
+    <template><srai>What is <star/></srai></template>
+</category>
+<category>
+    <pattern>_ PLEASE</pattern>
+    <template>You are very polite. <srai><star/></srai></template>
+</category>
+<category>
     <pattern>Roll a dice</pattern>
     <template>
         <random>
