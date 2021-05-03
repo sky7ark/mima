@@ -21,6 +21,25 @@
     <template><srai>Hello</srai></template>
 </category>
 <category>
+    <pattern>My name is *</pattern>
+    <template>
+        Hi <set name="firstname"><star/></set>
+        <condition name="firstname">
+            <li value="Salith"> You have the same name as my creator</li>
+            <li> Nice name</li>
+        </condition>
+    </template>
+</category>
+<category>
+    <pattern>What is my name</pattern>
+    <template>
+        <condition name="firstname">
+            <li value="unknown">No idea. You have not tell me your name to me</li>
+            <li>Your name is <get name="firstname"/></li>
+        </condition>
+    </template>
+</category>
+<category>
     <pattern>What is your name</pattern>
     <template>My name is Mima</template>
 </category>
@@ -35,6 +54,10 @@
 <category>
     <pattern>_ PLEASE</pattern>
     <template>You are very polite. <srai><star/></srai></template>
+</category>
+<category>
+    <pattern>Wot is *</pattern>
+    <template><srai>What is <star/></srai></template>
 </category>
 <category>
     <pattern>Roll a dice</pattern>
